@@ -1,6 +1,7 @@
 extern crate console;
 
-use console::{Key, Term};
+pub use console::Key;
+use console::Term;
 use std::error::Error;
 use std::str::FromStr;
 
